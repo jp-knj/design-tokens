@@ -1,0 +1,26 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "style-dictionary": "3.8.0",
+    "token-transformer": "^0.0.33"
+  },
+  "scripts": {
+    "token:genJson": "./node_modules/.bin/token-transformer tokens.json output.json",
+    "token:genToken": "style-dictionary build --config config.json",
+    "token": "yarn run token:genJson && yarn run token:genToken"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jp-knj/design-tokens.git"
+  },
+  "author": "jp-knj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jp-knj/design-tokens/issues"
+  },
+  "homepage": "https://github.com/jp-knj/design-tokens#readme"
+}

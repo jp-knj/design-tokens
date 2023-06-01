@@ -1,12 +1,13 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["output.json"],
   "platforms": {
     "scss": {
+      "buildPath": "src/tokens/",
       "transformGroup": "scss",
-      "buildPath": "build/",
       "files": [{
-        "destination": "variables.scss",
-        "format": "scss/variables",
+        "destination": "tokens.scss",
+        "format": "scss/map-deep",
+        "mapName":"css-tokens",
         "options": {
           "outputReferences": true
         }

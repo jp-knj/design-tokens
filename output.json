@@ -1,0 +1,19 @@
+{
+  "border-width-1": {
+    "value": 1,
+    "type": "borderWidth",
+    "description": "Use a border width of 1 pixel"
+  },
+  "red": {
+    "primary": {
+      "value": "#F15B5B",
+      "type": "color"
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "global",
+      "type": "other"
+    }
+  }
+}

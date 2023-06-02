@@ -1,0 +1,19 @@
+
+/**
+ * Do not edit directly
+ * Generated on Thu, 01 Jun 2023 10:19:41 GMT
+ */
+
+$token-set-order-0: global !default;
+$red-primary: #F15B5B !default;
+$border-width-1: 1 !default;
+
+$css-tokens: (
+  'border-width-1': $border-width-1,
+  'red': (
+    'primary': $red-primary
+  ),
+  'tokenSetOrder': (
+    '0': $token-set-order-0
+  )
+);
